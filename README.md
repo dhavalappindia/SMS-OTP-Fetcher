@@ -4,21 +4,11 @@ Get OTP From SMS and set in edittext
 A library for implementing interception of SMS with a verification code using a few lines of code.
 
 Who we are
-Need iOS and Android apps, MVP development or prototyping? Contact us via info@stfalcon.com. We develop software since 2009, and we're known experts in this field. Check out our portfolio and see more libraries from stfalcon-studio.
+Need iOS and Android apps, MVP development or prototyping? . We develop software since 2009, and we're known experts in this field.
 
-Download
-Download via Gradle:
 
-compile 'com.github.stfalcon:smsverifycatcher:0.3.2'
-or Maven:
-
-<dependency>
-  <groupId>com.github.stfalcon</groupId>
-  <artifactId>smsverifycatcher</artifactId>
-  <version>0.3.2</version>
-  <type>pom</type>
-</dependency>
 Usage
+
 Add permissions to AndroidManifest.xml:
 
   <uses-permission android:name="android.permission.RECEIVE_SMS" />
@@ -63,17 +53,7 @@ or set message filter via regexp:
    smsVerifyCatcher.setFilter("<regexp>");
 That's all! Take a look at the sample project for more information
 
-License
-Copyright 2017 stfalcon.com
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+
